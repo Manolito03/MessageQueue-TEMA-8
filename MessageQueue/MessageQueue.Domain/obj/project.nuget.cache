@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "swYsDCalyvkcpJMewyy+KbDTZ/cV3YSCQk/vrB/GQZvrDRnMMDFu6+0ktSFz2NGOpIB6nmZkVu808oDbHJ4nHA==",
+  "dgSpecHash": "/wx9Kp13KM2ssRfCug56UccwpiTjEB2HL6ACAXYMX/3gerCVb7qK14ktkDRuqn+aVL3iwzJFBoLXRXIie4YqJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Adrian pc\\Source\\Repos\\Software-de-colas-de-mensajes\\MessageQueue\\MessageQueue.Domain\\MessageQueue.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Adrian pc\\Documents\\GitHub\\Software-de-colas-de-mensajes\\MessageQueue.Domain\\MessageQueue.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

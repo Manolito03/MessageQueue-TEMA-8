@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+option csharp_namespace = "MessageQueue.GrpcProtos";
+
+package GrpcProtos;
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/struct.proto";
+import "common.proto";
+
+
+// Definimos un servicio llamado ConsumerService que tiene tres métodos
+service Consumer {
+  // Método CreateConsumer que crea un consumidor y devuelve una respuesta
+  rpc CreateConsumer(CreateConsumerDTORequest) returns (ConsumerDTO);
+  // Método GetConsumer que devuelve un consumidor
+  rpc GetConsumer(GetRequest) returns (ConsumerDTO); 
+    // Método GetAllConsumers que devuelve una lista de consumidores
+  rpc GetAllConsumers(google.protobuf.Empty) returns (Consumers); 
+  // Método DeleteConsumer que elimina un consumidor y devuelve una respuesta
+  rpc DeleteConsumer(DeleteRequest) returns (google.protobuf.Empty);
+}
+
+// Definimos un mensaje llamado Consumer que tiene dos campos: id y endpoint
+message ConsumerDTO {
+  // Campo id de tipo string
+  string id = 1;
+  // Campo endpoint de tipo NetworkEndpoint
+  NetworkEndpoint endpoint = 2;
+}
+
+message Consumers{
+    repeated ConsumerDTO consumers = 1;
+}
+// Definimos un mensaje llamado ConsumerResponse que tiene un campo llamado consumer_id
+message CreateConsumerDTORequest {
+  // Campo endpoint de tipo NetworkEndpoint
+  NetworkEndpoint endpoint = 2;
+}

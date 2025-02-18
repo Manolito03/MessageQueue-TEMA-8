@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MessageQueue",
+    "\\MessageQueue\\MessageQueue.DataAccess",
+    "\\MessageQueue\\MessageQueue.Domain\\Common",
+    "\\MessageQueue\\MessageQueue.Domain\\Entities",
+    "\\MessageQueue\\MessageQueue.Domain\\ValueObjects"
   ],
+  "SelectedNode": "\\MessageQueue\\MessageQueue.DataAccess\\MessageQueue.DataAccess.csproj",
   "PreviewInSolutionExplorer": false
 }

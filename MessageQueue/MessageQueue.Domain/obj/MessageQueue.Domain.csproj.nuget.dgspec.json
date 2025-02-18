@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Adrian pc\\Source\\Repos\\Software-de-colas-de-mensajes\\MessageQueue\\MessageQueue.Domain\\MessageQueue.Domain.csproj": {}
+    "C:\\Users\\Adrian pc\\Documents\\GitHub\\Software-de-colas-de-mensajes\\MessageQueue.Domain\\MessageQueue.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Adrian pc\\Source\\Repos\\Software-de-colas-de-mensajes\\MessageQueue\\MessageQueue.Domain\\MessageQueue.Domain.csproj": {
+    "C:\\Users\\Adrian pc\\Documents\\GitHub\\Software-de-colas-de-mensajes\\MessageQueue.Domain\\MessageQueue.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Adrian pc\\Source\\Repos\\Software-de-colas-de-mensajes\\MessageQueue\\MessageQueue.Domain\\MessageQueue.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Adrian pc\\Documents\\GitHub\\Software-de-colas-de-mensajes\\MessageQueue.Domain\\MessageQueue.Domain.csproj",
         "projectName": "MessageQueue.Domain",
-        "projectPath": "C:\\Users\\Adrian pc\\Source\\Repos\\Software-de-colas-de-mensajes\\MessageQueue\\MessageQueue.Domain\\MessageQueue.Domain.csproj",
+        "projectPath": "C:\\Users\\Adrian pc\\Documents\\GitHub\\Software-de-colas-de-mensajes\\MessageQueue.Domain\\MessageQueue.Domain.csproj",
         "packagesPath": "C:\\Users\\Adrian pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Adrian pc\\Source\\Repos\\Software-de-colas-de-mensajes\\MessageQueue\\MessageQueue.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Adrian pc\\Documents\\GitHub\\Software-de-colas-de-mensajes\\MessageQueue.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
