@@ -17,7 +17,11 @@ namespace MessageQueue.Domain.Entities
         /// <summary>
         /// Endpoint de red del consumidor
         /// </summary>
+<<<<<<< HEAD
         public NetworkEndpoint Endpoint { get; set; }
+=======
+        public NetworkEndpoint Endpoint { get; private set; }
+>>>>>>> e5542982c77b16914d02c9db4323c0190571acdf
 
         /// <summary>
         /// Constructor para crear un consumidor en la base de datos

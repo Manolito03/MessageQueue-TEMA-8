@@ -39,7 +39,11 @@ namespace MessageQueue.DataAccess.Migrations
 
                     b.Property<string>("ReadBy")
                         .IsRequired()
+<<<<<<< HEAD
                         .HasColumnType("Text");
+=======
+                        .HasColumnType("nvarchar(MAX)");
+>>>>>>> e5542982c77b16914d02c9db4323c0190571acdf
 
                     b.HasKey("Id");
 

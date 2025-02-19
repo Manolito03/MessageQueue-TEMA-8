@@ -2,11 +2,22 @@
   "ExpandedNodes": [
     "",
     "\\MessageQueue",
+<<<<<<< HEAD
     "\\MessageQueue\\MessageQueue.DataAccess",
     "\\MessageQueue\\MessageQueue.Domain\\Common",
     "\\MessageQueue\\MessageQueue.Domain\\Entities",
     "\\MessageQueue\\MessageQueue.Domain\\ValueObjects"
   ],
   "SelectedNode": "\\MessageQueue\\MessageQueue.DataAccess\\MessageQueue.DataAccess.csproj",
+=======
+    "\\MessageQueue\\MessageQueue.Contracts\\bin",
+    "\\MessageQueue\\MessageQueue.Contracts\\bin\\Debug",
+    "\\MessageQueue\\MessageQueue.Contracts\\bin\\Debug\\net8.0",
+    "\\MessageQueue\\MessageQueue.Contracts\\bin\\Release",
+    "\\MessageQueue\\MessageQueue.Contracts\\bin\\Release\\net8.0",
+    "\\MessageQueue\\MessageQueue.Contracts\\obj"
+  ],
+  "SelectedNode": "\\MessageQueue\\MessageQueue.Contracts",
+>>>>>>> e5542982c77b16914d02c9db4323c0190571acdf
   "PreviewInSolutionExplorer": false
 }

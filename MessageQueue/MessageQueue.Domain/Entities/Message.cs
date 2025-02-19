@@ -16,13 +16,21 @@ namespace MessageQueue.Domain.Entities
     /// </summary>
     public class Message : Entity
     {
+<<<<<<< HEAD
 
         private readonly List<Guid> _readBy = new();
+=======
+        private readonly HashSet<Guid> _readBy = new();
+>>>>>>> e5542982c77b16914d02c9db4323c0190571acdf
 
         /// <summary>
         /// Contenido del mensaje
         /// </summary>
+<<<<<<< HEAD
         public MessageContent Content { get; set; }
+=======
+        public MessageContent Content { get; private set; }
+>>>>>>> e5542982c77b16914d02c9db4323c0190571acdf
 
         /// <summary>
         /// Identificador del productor (clave foránea a Producer)
@@ -32,7 +40,11 @@ namespace MessageQueue.Domain.Entities
         /// <summary>
         /// Lista de consumidores que han leído el mensaje (claves foráneas a Consumer)
         /// </summary>
+<<<<<<< HEAD
         public IReadOnlyCollection<Guid> ReadBy => _readBy.AsReadOnly();
+=======
+        public IReadOnlyCollection<Guid> ReadBy => _readBy.ToList().AsReadOnly();
+>>>>>>> e5542982c77b16914d02c9db4323c0190571acdf
 
         /// <summary>
         /// Constructor para crear un mensaje

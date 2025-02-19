@@ -45,9 +45,15 @@ namespace MessageQueue.DataAccess.FluentConfigurations.MaintenanceActivities
                     v => string.Join(',', v), // Convertir HashSet<Guid> a string
                     v => v.Split(',', StringSplitOptions.RemoveEmptyEntries)
                           .Select(Guid.Parse)
+<<<<<<< HEAD
                           .ToList() // Convertir string a HashSet<Guid>
                 )
                 .HasColumnType("Text"); // Tipo de columna en la base de datos
+=======
+                          .ToHashSet() // Convertir string a HashSet<Guid>
+                )
+                .HasColumnType("nvarchar(MAX)"); // Tipo de columna en la base de datos
+>>>>>>> e5542982c77b16914d02c9db4323c0190571acdf
         }
     }
 }
